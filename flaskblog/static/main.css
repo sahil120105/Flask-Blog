@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f3f5;
+    color: #212529;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.site-header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-bottom: 3px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #343a40;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+
+.article-title:hover {
+    color: #0056b3;
+}
+
+.article-metadata {
+    margin-bottom: 10px;
+    color: #6c757d;
+}
+
+.article-content {
+    color: #495057;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+
+/* Post Separation */
+.media {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.media-body {
+    padding-left: 15px;
+}
+
+/* Sidebar Styles */
+.content-section {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.content-section h3 {
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.content-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+}
+
+.content-section ul li a {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.content-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Account Section */
+.rounded-circle.account-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ccc; /* Add a border for a more defined look */
+    border-radius: 50%; /* Ensure a perfectly circular shape */
+    object-fit: cover; /* Maintain image aspect ratio and cover the entire area */
+  }
